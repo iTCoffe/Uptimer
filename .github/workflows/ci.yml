@@ -125,7 +125,7 @@ jobs:
 
       - name: Upload worker coverage artifact
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: worker-coverage
           path: |
